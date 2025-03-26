@@ -1,0 +1,19 @@
+.menu{height: 900px;background-color:  black;color: white;}
+
+
+.menu ul{list-style: none;}
+.menu ul li{
+  padding: 5px; margin: 8px;
+}
+
+.menu ul li:hover{background-color: grey;border-radius: 3px;}
+
+.content{height:900px;background:black}
+
+
+.short-video {
+  width: 80%; 
+  height: 300px; 
+}
+
+
