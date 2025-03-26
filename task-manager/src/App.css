@@ -1,0 +1,54 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: lavender;
+  padding: 20px;
+}
+
+.greeting {
+  font-size: 1.5rem;
+  color: hotpink;
+  background-color: lightpink;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.task-list {
+  background: skyblue;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.task {
+  font-size: 1.2rem;
+  color: darkslategray;
+  background: lightcyan;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.counter {
+  margin-top: 20px;
+  padding: 15px;
+  background: thistle;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 1rem;
+  color: white;
+  background: royalblue;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: navy;
+}
