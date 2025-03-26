@@ -1,0 +1,68 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: grey;
+  padding: 20px;
+}
+
+.timer {
+  font-size: 1.5rem;
+  color: darkblue;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.themed-button button {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.theme-container {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-container.light {
+  background-color: white;
+  color: black;
+}
+
+.theme-container.dark {
+  background-color: black;
+  color: white;
+}
+
+.themed-button button.light {
+  background-color: skyblue;
+  color: black;
+}
+
+.themed-button button.dark {
+  background-color: darkslategray;
+  color: white;
+}
+
+.preferences button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: lightcoral;
+  color: white;
+}
+
+.preferences button:hover {
+  background-color: crimson;
+}
