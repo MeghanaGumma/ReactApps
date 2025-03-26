@@ -10,15 +10,9 @@ function App() {
   return (
     <div className="app">
       <h1>React Assessment</h1>
-
-      {/* Task 1: Greeting Components */}
       <Greeting name="Meghana" />
       <Greeting />
-
-      {/* Task 2: Prop Drilling */}
       <TaskList tasks={tasks} />
-
-      {/* Task 4 & 5: Counter Component */}
       <Counter />
     </div>
   );
